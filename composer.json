@@ -1,0 +1,21 @@
+{
+  "name": "beta/mb.client",
+  "description": "Message broker client - interfaces",
+  "type": "lib",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexander Nesterov",
+      "email": "alex19pov31@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "beta/data.provider": "^1.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "MessageBroker\\": "src/"
+    }
+  }
+}
